@@ -4234,16 +4234,7 @@
 		<div id="back-to-top"><a href="#"><i class="fa fa-long-arrow-up"></i></a></div>
 
 
-		<script type="text/javascript">
-			function revslider_showDoubleJqueryError(sliderID) {
-				var errorMessage = "Revolution Slider Error: You have some jquery.js library include that comes after the revolution files js include.";
-				errorMessage += "<br/> This includes make eliminates the revolution slider libraries, and make it not work.";
-				errorMessage += "<br/><br/> To fix it you can:<br/>&nbsp;&nbsp;&nbsp; 1. In the Slider Settings -> Troubleshooting set option:  <strong><b>Put JS Includes To Body<\/b><\/strong> option to true.";
-				errorMessage += "<br/>&nbsp;&nbsp;&nbsp; 2. Find the double jquery.js include and remove it.";
-				errorMessage = "<span style='font-size:16px;color:#BC0C06;'>" + errorMessage + "<\/span>";
-				jQuery(sliderID).show().html(errorMessage);
-			}
-		</script>
+		
 		<link rel="stylesheet"
 			id="vc_google_fonts_open_sans300300italicregularitalic600600italic700700italic800800italic-css"
 			href="//fonts.googleapis.com/css?family=Open+Sans%3A300%2C300italic%2Cregular%2Citalic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic&#038;ver=6.5.3"
@@ -4270,34 +4261,7 @@
 			src="/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=5.1.1"
 			id="wpb_composer_front_js-js"></script>
 
-		<script type="text/javascript">jQuery(document).ready(function ($) {
-
-
-				/* ------------------------------------------------------------------------ */
-				/* Add PrettyPhoto */
-				/* ------------------------------------------------------------------------ */
-
-				var lightboxArgs = {
-					animation_speed: 'fast',
-					overlay_gallery: true,
-					autoplay_slideshow: false,
-					slideshow: 5000, /* light_rounded / dark_rounded / light_square / dark_square / facebook */
-					theme: 'pp_default',
-					opacity: 0.8,
-					show_title: true,
-					social_tools: false, deeplinking: false,
-					allow_resize: true, 			/* Resize the photos bigger than viewport. true/false */
-					counter_separator_label: '/', 	/* The separator for the gallery counter 1 "of" 2 */
-					default_width: 940,
-					default_height: 529
-				};
-
-
-				$('a[href$=jpg], a[href$=JPG], a[href$=jpeg], a[href$=JPEG], a[href$=png], a[href$=gif], a[href$=bmp]:has(img), a[class^="prettyPhoto"], a[rel^="prettyPhoto"]').prettyPhoto(lightboxArgs);
-				$('.fbx-link').unbind('click.prettyphoto');
-
-
-			});</script>
+		
 
 </body>
 
