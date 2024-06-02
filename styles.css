@@ -1,4 +1,8 @@
-body {
+a {
     color: #093261;
-    font-family: Open Sans,Arial,Helvetica,sans-serif;
+    text-decoration: none;
+} 
+
+.btn-primary {
+    --bs-btn-bg: #093261;
 }
