@@ -6,3 +6,7 @@ a {
 .btn-primary {
     --bs-btn-bg: #093261;
 }
+
+html {
+    scroll-padding-top: 4rem;
+}
